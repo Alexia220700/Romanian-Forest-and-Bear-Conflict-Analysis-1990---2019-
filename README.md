@@ -11,19 +11,23 @@ All included in Docker - no manual installation needed
 
 # Setup Guide - First Time Setup
 1. Open terminal/command prompt
+
    
 2. Clone or download the project
    
 git clone https://github.com/Alexia220700/forests-analysis.git
 OR download ZIP and extract
 
+
 3. Navigate to project folder
    
 cd forests-analysis
 
+
 4. Build Docker image (first time only - takes 5-10 minutes)
    
 docker build -t forest-analysis .
+
 
 5. Run the analysis
    
@@ -31,7 +35,11 @@ docker run -v "$(pwd)/outputs:/app/outputs" forest-analysis
 
 # Expected Outputs
 ✓ Data preprocessing complete
+
 ✓ Forest growth analysis complete
+
 ✓ Livestock damage analysis complete
+
 ✓ All visualizations complete
+
 ✓ Analysis completed successfully
