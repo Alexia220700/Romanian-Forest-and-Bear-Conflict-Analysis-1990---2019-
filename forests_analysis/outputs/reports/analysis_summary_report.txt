@@ -1,0 +1,46 @@
+
+============================================================
+ANALYSIS SUMMARY REPORT
+============================================================ 
+
+1. FOREST GROWTH (1990-2019)
+National Average: 0.10% 
+Highest Growth: Banat  ( 0.31% )
+Lowest Growth: Bucovina  ( 0.00% )
+
+2. ANIMAL DAMAGE
+Total Damage: 610 
+Total Bear Sightings: 77,028 
+
+3. REGIONAL HOTSPOTS (Top 3)
+ 1. Muntenia: 283 incidents (0.109 per hectare)
+ 2. Transilvania: 213 incidents (0.036 per hectare)
+ 3. Dobrogea: 51 incidents (0.125 per hectare)
+
+4. FOREST AREA COMPARISON (1990 vs 2019)
+Largest forest area in 1990: Transilvania (5757k ha)
+Largest forest area in 2019:  Transilvania  ( 6101.9 k ha)
+
+5. POLICY RECOMMENDATIONS
+High Priority (Top 3 damage):  Muntenia, Transilvania, Dobrogea 
+Medium Priority (Next 3):  Maramureș, Crișana, Bucovina 
+Low Priority (Remaining):  Moldova, Banat, Oltenia 
+
+6. VISUALIZATIONS GENERATED
+• Forest area maps for 1990 and 2019
+• Annual forest growth rate bar chart
+• Animal damage vs bear sightings comparison
+• Forest area change visualization
+• Damage per hectare intensity chart
+
+============================================================ 
+ANALYSIS COMPLETED SUCCESSFULLY
+============================================================ 
+
+✓ All analysis complete!
+
+SUMMARY OF OUTPUTS:
+1. Statistical Analysis: Growth rates, ANOVA, damage statistics
+2. Geospatial Visualizations: Forest area maps for 1990 and 2019
+3. Statistical Charts: Bar charts showing trends and comparisons
+4. Comprehensive Report: Regional analysis and policy recommendations
