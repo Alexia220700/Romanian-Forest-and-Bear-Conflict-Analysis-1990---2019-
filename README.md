@@ -21,10 +21,12 @@ OR download ZIP and extract
    
 cd forests-analysis
 
-6. Build Docker image (first time only - takes 5-10 minutes)
+4. Build Docker image (first time only - takes 5-10 minutes)
+   
 docker build -t forest-analysis .
 
-7. Run the analysis
+5. Run the analysis
+   
 docker run -v "$(pwd)/outputs:/app/outputs" forest-analysis
 
 # Expected Outputs
