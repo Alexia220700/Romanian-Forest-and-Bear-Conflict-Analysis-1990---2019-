@@ -10,6 +10,7 @@
 
 •	2 GB free disk space
 
+
 **Option B: Manual R Setup**
 
 •	R 4.0+ installed on your system
@@ -22,16 +23,20 @@
 
 # Installation Steps
 ## Docker Installation
+
  1. Download the project folder
+    
 git clone https://github.com/yourusername/forests-analysis.git
 
 cd forests-analysis
 
- 3. Build Docker image (first time only)
+ 2. Build Docker image (first time only)
+    
 docker build -t forest-analysis .
 
 
- 5. Run the analysis
+ 3. Run the analysis
+    
 docker run -v "$(pwd)/outputs:/app/outputs" forest-analysis
 
 
@@ -41,10 +46,14 @@ docker run -v "$(pwd)/outputs:/app/outputs" forest-analysis
     
 install.packages(c("dplyr", "tidyr", "ggplot2", "maps", "readr", "stringr"))
 
- 3. Prepare your data - place these CSV files in project directory:
+ 2. Prepare your data - place these CSV files in project directory:
+    
  a. forest_surfaces_romania_en_1990_2019.csv
+ 
  b. cows_summary_by_year_region.csv
+ 
  c. sheep_summary_by_year_region.csv
+ 
 
  4. Run the analysis
     
@@ -52,7 +61,9 @@ source("script.R")
  
 
 # What You Get
+
  After successful execution, check the outputs/ folder:
+ 
    ## 1. Data Outputs
    
 •	forest_area_1990.csv - Forest areas by region in 1990
