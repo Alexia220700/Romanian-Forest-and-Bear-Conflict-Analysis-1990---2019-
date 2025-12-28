@@ -3,58 +3,85 @@
 ### Docker Desktop (Downloads)
 
 **Option A: Docker**
+
 •	Docker Desktop (Download)
+
 •	4 GB RAM minimum
+
 •	2 GB free disk space
 
 **Option B: Manual R Setup**
+
 •	R 4.0+ installed on your system
+
 •	RStudio (recommended) for easier execution
+
 •	Required R packages: dplyr, tidyr, ggplot2, maps, readr, stringr
+
 
 
 # Installation Steps
 ## Docker Installation
  1. Download the project folder
 git clone https://github.com/yourusername/forests-analysis.git
+
 cd forests-analysis
 
- 2. Build Docker image (first time only)
+ 3. Build Docker image (first time only)
 docker build -t forest-analysis .
 
- 3. Run the analysis
+
+ 5. Run the analysis
 docker run -v "$(pwd)/outputs:/app/outputs" forest-analysis
+
 
 
 ## Manual R Installation
  1. Install required R packages
+    
 install.packages(c("dplyr", "tidyr", "ggplot2", "maps", "readr", "stringr"))
 
- 2. Prepare your data - place these CSV files in project directory:
+ 3. Prepare your data - place these CSV files in project directory:
  a. forest_surfaces_romania_en_1990_2019.csv
  b. cows_summary_by_year_region.csv
  c. sheep_summary_by_year_region.csv
 
- 3. Run the analysis
+ 4. Run the analysis
+    
 source("script.R")
  
 
 # What You Get
  After successful execution, check the outputs/ folder:
    ## 1. Data Outputs
+   
 •	forest_area_1990.csv - Forest areas by region in 1990
+
 •	forest_area_2019.csv - Forest areas by region in 2019
+
 •	regional_growth_comparison.csv - Growth rates and changes
+
 •	bear_conflict_analysis.csv - Conflict statistics and hotspots
+
 •	combined_dataset.csv - Full integrated dataset
 
+
    ## 2. Visualizations
+   
 •	map_forest_area_1990.png - Forest distribution map (1990)
+
 •	map_forest_area_2019.png - Forest distribution map (2019)
+
 •	chart_annual_growth_rate.png - Regional growth rates
+
 •	chart_damage_vs_sightings.png - Conflict comparison
+
 •	chart_percent_change.png - Percentage change visualization
 
+
    ## 3. Reports
+   
 •	analysis_summary_report.txt - Comprehensive analysis report
+
 •	Complete session and environment information
+
